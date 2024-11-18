@@ -55,6 +55,10 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 // 7.--------------------------------------------------------------------------------------
 // create a variable and assign it the content of myArray as a string using .join().
 // print your variable.
+
+const myNewArray = myArray.join();
+console.log(myNewArray);
+
 //BONUS - See if you can make the items be seperated by a space
 
 //8--------------------------------------------------------------------------------------
