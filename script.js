@@ -27,12 +27,11 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 // Using the myArray.push() method, add "mango" to the end of myArray.
 //print myArray using a for... of loop.
 
-// myArray.splice(5, 0,  "mango"); 
+// myArray.splice(5, 0,  "mango");
 // console.log(myArray);
 
 //fant ut via google at man kan legge til et element i et
 //array når man bruker denne metoden
-
 
 // myArray.push ("mango");
 // console.log(myArray);
@@ -48,15 +47,15 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 // Using the .shift() and .pop() method, remove the first and last item from myArray.
 //print the result
 
- //myArray.shift(); //fjerner første element
- //myArray.pop(); //fjerner siste element
- //console.log(myArray);
+//myArray.shift(); //fjerner første element
+//myArray.pop(); //fjerner siste element
+//console.log(myArray);
 
 // 7.--------------------------------------------------------------------------------------
 // create a variable and assign it the content of myArray as a string using .join().
 // print your variable.
 
-const myNewArray = myArray.join();
+const myNewArray = myArray.join("");
 console.log(myNewArray);
 
 //BONUS - See if you can make the items be seperated by a space
