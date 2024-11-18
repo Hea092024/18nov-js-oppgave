@@ -2,15 +2,22 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 
 //1.--------------------------------------------------------------------------------------
 // Print the numbers 1-10 using a "for-loop"
-for (let i = 0; i < 10; i++) {
-    console.log(i);
-}
+// for (let i = 1; i < 10; i++) {
+//     console.log(i);
+// }
 //2.--------------------------------------------------------------------------------------
 // Print the numbers 1-10 using a "while loop"
-
+// let number =1;
+// while (number < 10) {
+//     console.log(number);
+//     number++;
+// }
 //3.--------------------------------------------------------------------------------------
 // Print each item in myArray using a "for loop".
-
+// let myArray = ["apple", "banana", "cherry", "date", "eggplant"];
+for (let i = 0; i < myArray.length; i++) {
+    console.log(myArray[i]);
+}
 //4.--------------------------------------------------------------------------------------
 // Using the myArray.push() method, add "mango" to the end of myArray.
 //print myArray using a for... of loop.
