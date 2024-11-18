@@ -27,12 +27,6 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 // Using the myArray.push() method, add "mango" to the end of myArray.
 //print myArray using a for... of loop.
 
-// myArray.splice(5, 0,  "mango");
-// console.log(myArray);
-
-//fant ut via google at man kan legge til et element i et
-//array når man bruker denne metoden
-
 // myArray.push ("mango");
 // console.log(myArray);
 
@@ -42,6 +36,12 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 
 // myArray.splice(2, 1); //fjerner cherry
 // console.log(myArray);
+
+// myArray.splice(5, 0,  "mango");
+// console.log(myArray);
+
+//fant ut via google at man kan legge til et element i et
+//array når man bruker denne metoden
 
 //6.--------------------------------------------------------------------------------------
 // Using the .shift() and .pop() method, remove the first and last item from myArray.
