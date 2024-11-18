@@ -2,33 +2,55 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 
 //1.--------------------------------------------------------------------------------------
 // Print the numbers 1-10 using a "for-loop"
+
 // for (let i = 1; i < 10; i++) {
 //     console.log(i);
 // }
+
 //2.--------------------------------------------------------------------------------------
 // Print the numbers 1-10 using a "while loop"
+
 // let number =1;
 // while (number < 10) {
 //     console.log(number);
 //     number++;
 // }
+
 //3.--------------------------------------------------------------------------------------
 // Print each item in myArray using a "for loop".
-// let myArray = ["apple", "banana", "cherry", "date", "eggplant"];
-for (let i = 0; i < myArray.length; i++) {
-    console.log(myArray[i]);
-}
+
+// for (let i = 0; i < myArray.length; i++) {
+//     console.log(myArray[i]);
+// }
+
 //4.--------------------------------------------------------------------------------------
 // Using the myArray.push() method, add "mango" to the end of myArray.
 //print myArray using a for... of loop.
+
+// myArray.splice(5, 0,  "mango"); 
+// console.log(myArray);
+
+//fant ut via google at man kan legge til et element i et
+//array når man bruker denne metoden
+
+
+// myArray.push ("mango");
+// console.log(myArray);
 
 //5.--------------------------------------------------------------------------------------
 //Using the myArray.splice() method, remove "cherry" from myArray
 // print the result using myArray.foreach()
 
+// myArray.splice(2, 1); //fjerner cherry
+// console.log(myArray);
+
 //6.--------------------------------------------------------------------------------------
 // Using the .shift() and .pop() method, remove the first and last item from myArray.
 //print the result
+
+ //myArray.shift(); //fjerner første element
+ //myArray.pop(); //fjerner siste element
+ //console.log(myArray);
 
 // 7.--------------------------------------------------------------------------------------
 // create a variable and assign it the content of myArray as a string using .join().
