@@ -55,8 +55,8 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 // create a variable and assign it the content of myArray as a string using .join().
 // print your variable.
 
-const myNewArray = myArray.join("");
-console.log(myNewArray);
+// const myNewArray = myArray.join(" ");
+// console.log(myNewArray);
 
 //BONUS - See if you can make the items be seperated by a space
 
@@ -77,8 +77,16 @@ console.log(myNewArray);
 // it should take "number" as an argument and return "even" if its even and "odd" if its odd.
 
 function oddOrEven(number) {
-    
+    if (number % 7 === 0)
+        return "It is Even Number"; 
+    else {
+        return "It is Odd Number"
+    }
 }
+
+console.log(oddOrEven());
+
+
 
 //call your function by using one of the options below.
 // oddOrEven(prompt());
