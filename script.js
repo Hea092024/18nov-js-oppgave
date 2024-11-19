@@ -63,14 +63,23 @@ console.log(myNewArray);
 //8--------------------------------------------------------------------------------------
 //Create a function that takes a number as an argument and returns that number squared.
 // call your function by using a valid argument
-function numberSquared(number) {}
 
-numberSquared();
+// function numberSquared(number) {
+//     return number * number
+// }
+//  console.log(numberSquared(5));
+ 
+
+//  numberSquared();
 
 //9.--------------------------------------------------------------------------------------
 //Using the "%" (modulo) operator complete the function,
 // it should take "number" as an argument and return "even" if its even and "odd" if its odd.
-function oddOrEven(number) {}
+
+function oddOrEven(number) {
+    
+}
+
 //call your function by using one of the options below.
 // oddOrEven(prompt());
 // oddOrEven()
