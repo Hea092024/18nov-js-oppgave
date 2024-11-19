@@ -22,9 +22,9 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 //3.--------------------------------------------------------------------------------------
 // Print each item in myArray using a "for loop".
 
-for (let i = 0; i < myArray.length; i++) {
-    console.log(myArray[i]);
-}
+// for (let i = 0; i < myArray.length; i++) {
+//     console.log(myArray[i]);
+// }
 
 //4.--------------------------------------------------------------------------------------
 // Using the myArray.push() method, add "mango" to the end of myArray.
@@ -39,6 +39,7 @@ for (let i = 0; i < myArray.length; i++) {
 
 // myArray.splice(2, 1); //fjerner cherry
 // console.log(myArray);
+
 
 // myArray.splice(5, 0,  "mango");
 // console.log(myArray);
@@ -81,19 +82,18 @@ for (let i = 0; i < myArray.length; i++) {
 
 // function oddOrEven(number) {
 //     if (number % 7 === 0)
-//         return "It is Even Number"; 
+//         return "Even"; 
 //     else {
-//         return "It is Odd Number"
+//         return "Odd"
 //     }
 // }
 
-// console.log(oddOrEven());
+// //call your function by using one of the options below.
+// oddOrEven(prompt(4));
+// oddOrEven(5)
 
+//     console.log(oddOrEven(prompt(4)));
 
-
-//call your function by using one of the options below.
-// oddOrEven(prompt());
-// oddOrEven()
 
 //10.--------------------------------------------------------------------------------------
 //write a function that prints the fibbonacci sequence for the number passed into it
@@ -101,14 +101,26 @@ for (let i = 0; i < myArray.length; i++) {
 //  c = a + b;
 //  a = b;
 //  b = c;
-function Fibbonacci(number) {}
-Fibbonacci();
+
+// function Fibbonacci(number) {
+// let a = 0, b = 1;
+// for (let i = 0; i < number; i++){
+//     console.log(a);
+//     let c = a + b
+//     a = b;
+//     b = c;
+    
+// }
+
+// }
+// Fibbonacci(8);
 
 
 //11.--------------------------------------------------------------------------------------
 //BONUS!Implement fizzbuzz, if a number is divisible by 3: Fizz, if a number is divisible by 5: Buzz, if the number is divisible by both 3 and 5, FizzBuzz
 // https://www.geeksforgeeks.org/fizz-buzz-implementation/
 function fizzbuzz(number) {}
+
 
 fizzbuzz();
 
@@ -117,8 +129,9 @@ fizzbuzz();
 //recursion is when a function calls itself.
 //Complete the function so that it returns the factorial of a number. Factorial (n!) is the product of all whole numbers between 1 and n
 //example: factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
-function factorial(n) {
-  if (n === 0) return 1;
-  return; /// din kode her
-}
-console.log(factorial(5));
+
+// function factorial(n) {
+//   if (n === 0) return 1;
+//   return; /// din kode her
+// }
+// console.log(factorial(5));
