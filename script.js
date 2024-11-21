@@ -119,10 +119,20 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 //11.--------------------------------------------------------------------------------------
 //BONUS!Implement fizzbuzz, if a number is divisible by 3: Fizz, if a number is divisible by 5: Buzz, if the number is divisible by both 3 and 5, FizzBuzz
 // https://www.geeksforgeeks.org/fizz-buzz-implementation/
-function fizzbuzz(number) {}
+function fizzbuzz(number) {
+  if (number % 3 === 0 && number % 5 === 0) {
+    console.log("FizzBuzz");
+  } else if (number % 3 === 0) {
+    console.log("Fizz");
+  } else if (number % 5 === 0) {
+    console.log("Buzz");
+  } else {
+    console.log(number);
+  }
+}
 
+fizzbuzz(15);
 
-fizzbuzz();
 
 //12.--------------------------------------------------------------------------------------
 //SUPERBONUS - we have not talked about recursion yet, but here is a fun one to try.
